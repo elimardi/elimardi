@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Limardi - Sisthema spa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emmanuel Limardi</h1>
+        <p>Programmatore Java presso Sisthema spa</p>
+    </header>
+    <nav>
+        <a href="#chi-sono">Chi Sono</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+    <div class="content">
+        <section id="chi-sono">
+            <h2>Chi Sono</h2>
+            <p>
+                Ciao! Mi chiamo Emmanuel Limardi e lavoro come programmatore Java presso Sisthema spa.
+            </p>
+        </section>
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <p><strong>Telefono:</strong> 335707231</p>
+            <p><strong>Email:</strong> <a href="mailto:e.limardi@sisthemaspa.it">e.limardi@sisthemaspa.it</a></p>
+        </section>
+    </div>
+    <footer>
+        © 2023 Emmanuel Limardi - Sisthema spa
+    </footer>
+</body>
+</html>
